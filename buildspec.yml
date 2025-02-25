@@ -13,7 +13,7 @@ phases:
   post_build:
     commands:
       - echo Pushing index.html to S3...
-      - aws s3 cp index.html s3://my-pipeline-bucket-123 --acl public-read
+      - aws s3 cp index.html s3://mygmailb321 --acl public-read
 
 artifacts:
   files:
