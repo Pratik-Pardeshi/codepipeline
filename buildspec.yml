@@ -13,7 +13,7 @@ phases:
   post_build:
     commands:
       - echo Pushing index.html to S3...
-      - aws s3 cp index.html s3://YOUR_S3_BUCKET_NAME --acl public-read
+      - aws s3 cp index.html s3://gmailbucket321 --acl public-read
       - echo Deployment completed!
 
 artifacts:
